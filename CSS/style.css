@@ -15,28 +15,43 @@ nav {
     align-items: center;
 }
 .logo img {
-    width: 105px;
+    width: 80px;
     padding: 0 20px;
 }
 nav ul {
     display: flex;
     justify-content: flex-start;
-    height: 70px;
+    height: 45px;
     align-items: center;
 }
 nav ul li {
     list-style: none;
-    padding: 0 23px;
+    padding: 0 15px;
+    font-size: 15px;
+}
+nav ul li:hover {
+    color: #90a5ea;
+    font-weight: bolder;
 }
 nav ul li a{
     color: white;
     text-decoration: none;
 }
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 300px;
+    height: 22px;
+    border-radius: 5px;
+    margin: 0 20px 0 56px;
+}
 .container {
-    min-height: calc(100vh - 70px - 12vh);
+    min-height: calc(100vh - 45px - 10vh);
 }
 footer {
-     height: 12vh;
+     height: 10vh;
      background-color: var(--main-bg-color);
      color: white;
      font-family: 'Lato', sans-serif;
